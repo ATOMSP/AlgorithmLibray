@@ -10,7 +10,7 @@
 extern "C" {
 #endif
 
-void Example(void);
+int Function(void);
 
 
 

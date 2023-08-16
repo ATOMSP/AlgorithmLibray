@@ -15,7 +15,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(AlgorithmLibray
         main.cpp
-        Framework/FirstExample.cpp)
+        Framework/FirstExample.cpp Framework/StandardIO.cpp)
 
 target_include_directories(AlgorithmLibray PUBLIC
         Framework)
