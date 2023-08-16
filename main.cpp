@@ -5,7 +5,7 @@
 
 int main()
 {
-    Function();
+    Function4();
     return 0;
 }
 

@@ -11,6 +11,9 @@ extern "C" {
 #endif
 
 int Function(void);
+int Function2(void);
+int Function3(void);
+int Function4(void);
 
 
 
