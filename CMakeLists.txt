@@ -13,10 +13,12 @@ set(CMAKE_CXX_STANDARD 14)
 
 
 
-add_executable(AlgorithmLibray main.cpp)
+add_executable(AlgorithmLibray
+        main.cpp
+        Framework/FirstExample.cpp)
 
-
-target_include_directories(AlgorithmLibray PUBLIC INC_DIR)
+target_include_directories(AlgorithmLibray PUBLIC
+        Framework)
 
 
 
